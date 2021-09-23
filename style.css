@@ -1,0 +1,47 @@
+* {
+    text-align: center;
+    margin: 0;
+    border-radius: 10px;
+    
+  }
+
+  nav,
+  footer {
+    color: white;
+    background-color: #343a40;
+    padding: 20px; 
+  }
+
+  img {
+    width: 100%;
+  }
+
+  a {
+    padding: 20px;
+    color: white;
+  }
+
+  main,
+  section,
+  article {
+    width: 60%;
+    margin: auto;
+    border: 1px solid #343a40;
+  }
+
+  h2,
+  h3 {
+    padding: 7px;
+    color: white;
+    background-color: #343a40;
+  }
+
+  h3 {
+    width: 30%;
+    margin: auto;
+  }
+
+  form {
+    margin: auto;
+    width: 60%;
+  }
