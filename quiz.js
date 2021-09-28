@@ -64,7 +64,7 @@
 
  function insert2(){
      try{
-         sum ;
+         sAm;
     document.getElementById("name").value;
     if(document.getElementById("name").value ==Name){
         alert("WELCOME!! Khaled");
