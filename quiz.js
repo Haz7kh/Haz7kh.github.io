@@ -1,6 +1,7 @@
  var turn = true; //true means X turn
   var squares = [];
 
+
   function checkWinner(){
    for (var i=1; i<=9; i++) {
     squares[i] = document.getElementById('A'+i).innerHTML;
@@ -53,6 +54,26 @@
     turn = !turn;
    }
    checkWinner();
-  }
+}
+  
+  var Name="khaled";
+  
+  
+     
+    
 
- 
+ function insert2(){
+     try{
+         sum ;
+    document.getElementById("name").value;
+    if(document.getElementById("name").value ==Name){
+        alert("WELCOME!! Khaled");
+       
+       
+      } else{
+          alert("Wrong name");
+      }
+    } catch(err){
+        alert(err.message);
+    }
+  } 
